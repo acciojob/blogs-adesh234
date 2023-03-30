@@ -16,7 +16,7 @@ public class Blog{
 
     private String content;
 
-    private Date publishedDate;
+    private Date pubDate;
 
     @ManyToOne
     @JoinColumn
