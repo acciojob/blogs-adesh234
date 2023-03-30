@@ -28,11 +28,11 @@ public class Blog{
     public Blog() {
     }
 
-    public Blog(int id, String title, String content, Date publishedDate, User user, List<Image> imageList) {
+    public Blog(int id, String title, String content, Date pubDate, User user, List<Image> imageList) {
         this.id = id;
         this.title = title;
         this.content = content;
-        this.publishedDate = publishedDate;
+        this.pubDate = pubDate;
         this.user = user;
         this.imageList = imageList;
     }
@@ -61,14 +61,6 @@ public class Blog{
         this.content = content;
     }
 
-    public Date getPublishedDate() {
-        return publishedDate;
-    }
-
-    public void setPublishedDate(Date publishedDate) {
-        this.publishedDate = publishedDate;
-    }
-
     public User getUser() {
         return user;
     }
@@ -83,5 +75,13 @@ public class Blog{
 
     public void setImageList(List<Image> imageList) {
         this.imageList = imageList;
+    }
+
+    public Date getPubDate() {
+        return pubDate;
+    }
+
+    public void setPubDate(Date pubDate) {
+        this.pubDate = pubDate;
     }
 }
