@@ -8,4 +8,3 @@ import org.mockito.junit.MockitoJUnitRunner;
 public class TestCases {
 
 }
-
